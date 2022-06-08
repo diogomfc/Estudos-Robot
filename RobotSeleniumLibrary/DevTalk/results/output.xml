@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220606 18:45:48.673" rpa="false" schemaversion="3">
+<suite id="s1" name="Modulo1" source="H:\qa\curso-robot\projeto\modulo1">
+<suite id="s1-s1" name="WebTestings" source="H:\qa\curso-robot\projeto\modulo1\WebTestings">
+<suite id="s1-s1-s1" name="Minha Suite" source="H:\qa\curso-robot\projeto\modulo1\WebTestings\minha_suite.robot">
+<test id="s1-s1-s1-t1" name="Caso de Teste 01: Pesquisar um produto no site." line="8">
+<kw name="Acessar a pagina home do site da loja de produtos." library="resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=${BROWSER}</arg>
+<arg>url=${URL}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220606 18:45:48.938" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20220606 18:45:48.937" endtime="20220606 18:45:54.692"/>
+</kw>
+<status status="PASS" starttime="20220606 18:45:48.936" endtime="20220606 18:45:54.692"/>
+</kw>
+<kw name="Digitar o produto &quot;blouse&quot; no campo de pesquisa." library="resource" sourcename="Digitar o produto &quot;${PRODUTOS}&quot; no campo de pesquisa.">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id=search_query_top</arg>
+<arg>${PRODUTOS}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220606 18:45:54.696" level="INFO">Typing text 'blouse' into text field 'id=search_query_top'.</msg>
+<status status="PASS" starttime="20220606 18:45:54.695" endtime="20220606 18:45:54.780"/>
+</kw>
+<status status="PASS" starttime="20220606 18:45:54.693" endtime="20220606 18:45:54.781"/>
+</kw>
+<kw name="Clicar no botão de pesquisar." library="resource">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>name=submit_search</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20220606 18:45:54.783" level="INFO">Clicking button 'name=submit_search'.</msg>
+<status status="PASS" starttime="20220606 18:45:54.782" endtime="20220606 18:45:57.513"/>
+</kw>
+<status status="PASS" starttime="20220606 18:45:54.781" endtime="20220606 18:45:57.513"/>
+</kw>
+<kw name="Validar que o produto &quot;blouse&quot; pesquisado foi encontrado." library="resource" sourcename="Validar que o produto &quot;${PRODUTOS}&quot; pesquisado foi encontrado.">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//*[@id="center_column"]/ul/li[1]/div/div[1]/div/a[1]/img</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220606 18:45:57.515" endtime="20220606 18:45:57.538"/>
+</kw>
+<status status="PASS" starttime="20220606 18:45:57.514" endtime="20220606 18:45:57.538"/>
+</kw>
+<status status="PASS" starttime="20220606 18:45:48.933" endtime="20220606 18:45:57.539"/>
+</test>
+<doc>Suíte exemplo WebTestings</doc>
+<status status="PASS" starttime="20220606 18:45:48.708" endtime="20220606 18:45:57.541"/>
+</suite>
+<status status="PASS" starttime="20220606 18:45:48.704" endtime="20220606 18:45:57.546"/>
+</suite>
+<status status="PASS" starttime="20220606 18:45:48.678" endtime="20220606 18:45:57.549"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Modulo1">Modulo1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="WebTestings">Modulo1.WebTestings</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Minha Suite">Modulo1.WebTestings.Minha Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

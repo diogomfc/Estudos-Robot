@@ -1,0 +1,11 @@
+{"level":30,"time":"2022-06-06T21:37:03.495Z","pid":24240,"hostname":"PC-DIOGO","msg":"Listening on 54451"}
+{"level":30,"time":"2022-06-06T21:37:04.003Z","pid":24240,"hostname":"PC-DIOGO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.004Z","pid":24240,"hostname":"PC-DIOGO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.008Z","pid":24240,"hostname":"PC-DIOGO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.008Z","pid":24240,"hostname":"PC-DIOGO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.020Z","pid":24240,"hostname":"PC-DIOGO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.020Z","pid":24240,"hostname":"PC-DIOGO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.026Z","pid":24240,"hostname":"PC-DIOGO","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.026Z","pid":24240,"hostname":"PC-DIOGO","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-06-06T21:37:04.705Z","pid":24240,"hostname":"PC-DIOGO","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-06-06T21:37:04.705Z","pid":24240,"hostname":"PC-DIOGO","msg":"End of node method closeAllBrowsers"}
