@@ -1,0 +1,1 @@
+robot -d ./results -v browser:firefox -v headless:false tests

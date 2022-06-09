@@ -1,8 +1,7 @@
 *** Settings ***
-library     Browser
 
-Resource     ../resources/base.robot
-#Resource      ${EXECDIR}/resources/base.robot
+##Resource     ../resources/base.robot
+Resource      ${EXECDIR}/resources/base.robot
 
 Test Setup       Start Session
 Test Teardown    Take Screenshot
@@ -28,4 +27,4 @@ Deve buscar todos restaurantes
     Restaurant count Should be        5
     #Wait For Elements State           css=.place-info-box    visible    timeout=10s
     #Wait For Elements State    css=div[class="place-info-box"][style="opacity: 1;"]   visible    timeout=10s
-    #Sleep          2s
+    Sleep          5s

@@ -1,0 +1,30 @@
+{
+  "restaurants": "DEBUGER KING",
+  "description": "40 anos se especializando em trash food.",
+  "products": [
+    {
+      "name": "Woopper Burger",
+      "detail": "Melhor que o Bigmac. Não tem como errar.",
+      "price": "18,50"
+    },
+    {
+      "name": "Batatas Fritas",
+      "detail": "Batatas fritas crocantes",
+      "price": "5,50"
+    },
+    {
+      "name": "Refrigerante",
+      "detail": "O refri de maquina sem gás mais sem graça de todos.",
+      "price": "4,50"
+    }
+  ],
+  "total": "28,50",
+  "customer": {
+    "name": "Diogo Silva",
+    "email": "diogomfc@hotmail.com",
+    "address": "Rua dos Bobos",
+    "number": "0",
+    "complement": "NA"
+  },
+  "payment": "Dinheiro"
+}
